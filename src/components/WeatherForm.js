@@ -12,8 +12,8 @@ import axios from 'axios';
 import styles from './Weather.module.css';
 import Clock from './Time';
 
-const API_KEY = '3babe86ac59aa9a9dc23651a0e762468';
-// const API_KEY = 'ddedea6f6ba500a058f420afb43dd4d4';
+const API_KEY = '';
+
 
 function WeatherForm() {
   const [city, setCity] = useState('Москва');
